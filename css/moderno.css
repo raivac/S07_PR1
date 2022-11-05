@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+}
+:root{
+    background-image: url("../img/Fondo_Negro_2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ 
+}
+header{
+    margin-top: 150px;
+}
+body{
+    position: relative;
+    text-align: center;
+    background-image: url("../img/wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 1500px;
+}
+nav{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+h1{
+    font-family: 'Gideon Roman', cursive;
+    font-size: 4em;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+a{
+    margin:30px;
+}
+
+header .boton{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	width:150px;
+	padding:10px;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	color:white;
+	background-color:rgb(4, 100, 226) ;
+	border:3px solid white;
+    border-radius: 10px;
+    align-items: center;
+    margin: 50px 225px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+header .boton:hover{
+    transform: translate(2px, 2px) scale(0.98,0.98);
+    color: white;
+    background-color: royalblue;
+}
+
+
+ul>li>a {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	width:200px;
+	padding:10px;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	color:white;
+	background-color:rgb(4, 100, 226) ;
+	border:3px solid white;
+    border-radius: 10px;
+    margin: auto;
+    align-items: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+img{
+    width: 150px;
+    margin-top: 20px;
+}
+table{
+    display: table;
+    margin: auto;
+    border-radius: 15px;
+    border: 3px solid white;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
+table tr th{
+    font-size: 1.5em;
+}
+div#carnet{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+article{
+    margin-bottom: 20px;
+}
