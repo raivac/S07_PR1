@@ -1,6 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+@font-face 
+{   font-family: amplitud;
+    src: url("../fonts/amplitud.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    color: rgb(153, 1, 1);
+    list-style: none;
+}
+
+:root{
+    background-image: url("../img/fondo-antiguo1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    margin-top: 150px;
+}
+
+body{
+    font-family: 'DM Mono', monospace;    
+    position: relative;
+    text-align: center;
+    background-image: url("../img/abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px 3565px;
+    height: 3565px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid  rgb(153, 1, 1);
+    border-radius: 3px;
+    width: 1700px;
+    list-style: none;
+    
+}
+nav{
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+span{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+h1{
+    font-family: 'amplitud';
+    font-weight: bold;
+    font-size: 6em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    text-shadow: 15px -7px 3px rgba(0,0,0,0.2);
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2::first-letter{
+    font-size: 1.2em;
+}
+
+a{
+    margin:30px;
+}
+
+a[href="#"] {
+    color: rgb(153, 1, 1);
+    font-weight: bold;
+    border: 1px solid rgb(153, 1, 1);
+    padding: 5px 100px;
+    background-color: lightsalmon;
+    
+}
+  
+header .boton{
+	width:150px;
+	padding:10px;
+	text-decoration:none;
+	text-align:center;
+	font-size:18px;
+	color:lightsalmon;
+	background-color:rgb(153, 1, 1) ;
+	border:2px solid lightsalmon;
+    border-radius: 3px;
+    align-items: center;
+    margin: 50px 280px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+header .boton:hover{
+    transform: translate(2px, 2px) scale(0.98,0.98);
+    color: rgb(153, 1, 1);
+    font-weight: bold;
+    background-color:lightsalmon;
+    border:2px solid rgb(153, 1, 1) ;
+}
+
+img:not(#carnet){
+    width: 150px;
+    margin-top: 20px;
+}
+
+table{
+    display: table;
+    margin: auto;
+    border-radius: 2px;
+    border: 2px solid rgb(153, 1, 1);
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+    background: rgb(255,216,104);
+    background: linear-gradient(184deg, rgba(255,216,104,1) 0%, rgba(252,165,135,0.008595988538681931) 100%, rgba(0,212,255,1) 100%);
+}
+
+table tr th{
+    font-size: 1.2em;
+}
+
+table td{
+    border: 1px solid rgb(153, 1, 1);
+    padding: 5px;
+  }
+
+header div#carnet{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+header div#carnet img#fotocarnet{
+    border: 2px solid rgb(153, 1, 1);
+}
+
+article{
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+article#datos_persolanes>ul>li{
+    font-size: 1.5em;
+}
+
+article#educacion ul>li>a {
+	width:500px;
+	padding:10px;
+	text-decoration:none;
+	text-align:center;
+	color:lightsalmon;
+	background-color:rgb(153, 1, 1) ;
+	border:2px solid lightsalmon;
+    border-radius: 3px;
+    margin: auto;
+    align-items: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+article#educacion ul>li>a:hover{
+    transform: translate(2px, 2px) scale(0.98,0.98);
+    color:rgb(153, 1, 1);
+    font-weight: bold;
+    background-color:lightsalmon;
+    border:2px solid rgb(153, 1, 1);
 }
