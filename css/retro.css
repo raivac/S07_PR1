@@ -14,7 +14,7 @@
 }
 
 :root{
-    background-image: url("../img/fondo-antiguo1.jpg");
+    background-image: url("../img/abstract.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ body{
     font-family: 'DM Mono', monospace;    
     position: relative;
     text-align: center;
-    background-image: url("../img/abstract.jpg");
+    background-image: url("../img/fondo-antiguo1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: auto;
