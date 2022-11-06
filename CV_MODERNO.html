@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+	
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="R.Ivars"/>
+		<meta name="robots" content="index"/>
+		<meta name="theme-color" content="blue"/>
+		<meta property="og:title" content="Curriculum Vitae" />
+		<meta property="og:description" content="Curriculum hecho con html y css" />
+		<meta property="og:image" content="https://cdn.bestfreehtmlcsstemplates.com/uploads/templates-images/769288a1f8e1fe6fe41911e299b27b3e.jpeg" />
+		<link rel="stylesheet" href="./css/moderno.css">
+		<title>Currículum Vitae</title>
+	</head>
+	<style>
+
+		header h1{
+			margin-bottom: 100px;
+		}
+
+		body:hover header div#carnet img{
+			transition: all 1s ease;
+			transform: rotate(30deg);
+            opacity: 1;  
+        }
+
+		body:hover header h1{
+			transition: all 1s ease;
+			transform: rotate(360deg);
+            color: rgb(4, 100, 226);
+			text-shadow: 13px -7px 3px rgba(255, 255, 255, 0.7);
+            letter-spacing: 0.1em;
+			
+        }
+
+		nav.nav a:hover{
+			transition: all 0.75s ease-out;
+            color: rgb(4, 100, 226);
+			border: 2px solid rgb(4, 100, 226);
+			padding: 10px;
+			border-radius: 10px;
+			letter-spacing: 0.2em;
+		}
+
+		body main article img:hover{
+			transition: all 1s ease;
+			transform: rotate(360deg);
+            opacity: 1; 
+		}
+
+		body main article h2:hover{
+			transition: all 0.7s ease;
+			transform: scale(1.2,1.2);
+		}
+
+		body main article a[href="#"]:hover{
+
+			transition: all 0.7s ease;
+			transform: scale(1.2,1.2);
+		}
+
+		body main article table:hover{
+			transition: all 0.75s ease;
+			transform: rotate(-5deg);
+			box-shadow: 0.7em 0.7em 0.4em black;
+		}
+
+		aside{
+            position: fixed;
+            top: 0; left: 0;
+            width: 75px;
+			height: 75px;
+            background-color: gray;
+			border: 3px solid white;
+			border-radius: 10px;
+			margin: 30px;
+			padding-top: 20px;
+        }
+        aside:hover{
+			background-color:rgb(4, 100, 226) ;
+            width: 25rem;
+        }
+		aside a{
+			color: rgba(255, 255, 255, 0);
+		}
+		aside:hover a{
+			transition: all 0.5s ease;
+			color: white;
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+
+	</style>
+
+	<body>
+
+		<header>
+			<div id="carnet">
+				<img id="fotocarnet" src="./img/photo.jpg" alt="carnet">
+			</div>
+
+			<h1>CURRICULIM VITAE</h1>
+			
+		</header>
+		<hr>
+		<nav class="nav">
+			<br>
+			<a href="#datos_personales">Datos Personales</a>
+			<a href="#educacion">Educación</a>
+			<a href="#idiomas">Idiomas</a>
+			<a href="#experiencia">Experiencia de Trabajo</a>
+			<a href="#otros">Otros</a>
+			<br><br>
+		</nav>
+
+		<hr>
+
+		<main>
+			<article>
+				<img src="./img/30446.png">
+
+				<h2>Datos personales</h2>
+
+				<article id = "datos_personales">
+				<br>
+				<ul>
+					<li><span>Nombre y Apellidos: </span>Raúl Ivars Climent</li><br>
+					<li><span>Dirección: </span>Passeig de Boloogneta, 38, 46724, Palma de Gandia</li><br>
+					<li><span>Correo Electronico: </span>raulivars1997@gmail.com</li><br>
+					<li><span>Teléfono: </span>654445362</li>
+				</ul><br>
+				<a href="#">ir arriba </a>
+			</article>
+
+			<hr>
+
+			<article id = "educacion">
+
+				<img src="./img/d76.png">
+
+				<h2>Educación</h2>
+				<br>
+				<ul>
+					<li><span>Educacion Obligatoria</span>
+						<br><br>
+						<ul> 
+							<li>Primaria <br><a href="https://mestreacasa.gva.es/web/lamurtera" target=”_blank”>CEIP La Murtera, Palma de Gandia</a></li><br>
+							<li>Secundaria <br><a href="https://portal.edu.gva.es/valldelasafor/" target=”_blank”>IES Vall de la safor, Villalonga</a></li>
+						</ul>
+					</li>
+					<br><br>
+					<li><span>Formación Professional</span></b>
+						<br><br>
+						<ul>
+							<li>Grado Medio: Mantenimiento electromecánico<br><a href="https://portal.edu.gva.es/iesjoanfuster/" target=”_blank”>IES Joan Fuster, Bellreguard</a> </li><br>
+							<li>Grado Superior: Mecatrónica Industrial<br><a href="https://portal.edu.gva.es/iesjoanfuster/" target=”_blank”>IES Joan Fuster, Bellreguard</a> </li><br>
+							<li>Grado Superior: Desarrollo de aplicaciones web <br><a href="https://portal.edu.gva.es/mariaenriquez/" target=”_blank”>IES Maria Enriquez, Gandia</a> </li><br>
+						</ul>
+					</li>
+				</ul>
+				<a href="#">ir arriba </a>
+			</article>
+
+			<hr>
+
+			<article id = "idiomas">
+
+				<img src="./img/language.png">
+
+				<h2>Idiomas</h2>
+
+				<table>
+					<tr>
+						<th colspan="4">Tabla de niveles de idiomas</th>
+					</tr>
+					<tr>
+						<th>Idioma</th>
+						<th>Escrito</th>
+						<th>Leído</th>
+						<th>Hablado</th>
+					</tr>
+					<tr>
+						<th>Español</th>
+						<td>Si</td>
+						<td>Si</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<th>Valenciano</th>
+						<td>Si</td>
+						<td>Si</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<th>Ingles</th>
+						<td>Si</td>
+						<td>Si</td>
+						<td>No</td>
+					</tr>
+				
+				</table>
+				<br>
+				<a href="#">ir arriba </a>
+			</article>
+
+
+			<hr>
+
+			<article id = "experiencia">
+				<img src="./img/work-experience.png">
+
+				<h2>Experiencia de Trabajo</h2>
+
+				<table>
+					<tr>
+						<th colspan="3">Tabla de experiencia laboral</th>
+					</tr>
+					<tr>
+						<th>Empresa</th>
+						<th>Desepmeño</th>
+						<th>Tiempo de duración</th>
+					</tr>
+					<tr>
+						<td>Vimaco</td>
+						<td>Prácticas de grado medio en montaje de aires acondicionados</td>
+						<td>370 horas</td>
+					</tr>
+					<tr>
+						<td>Autonomo</td>
+						<td>Prácticas de grado superior en reparación de electrodomesticos, montaje eléctrico/mecánico</td>
+						<td>400 horas</td>
+					</tr>
+					<tr>
+						<td>Dulcesol</td>
+						<td>Mecánico industrial</td>
+						<td>3 años</td>
+					</tr>
+					
+				</table>
+				<br>
+				<a href="#">ir arriba </a>
+			</article>
+
+			<hr>
+
+			<article id = "otros">
+
+				<img src="./img/Otros.png">
+
+				<h2>Otros</h2>
+
+				<ul>
+					<li>Disponibilidad horaria</li>
+					<li>Disponibilidad de desplazamiento</li>
+					<li>Curso de manipulador de alimentos</li>
+					<li>Curso de primeros auxilios</li>
+				</ul>
+				<br>
+				<a href="#">ir arriba </a>
+			
+			</article>
+		</main>
+		<aside>
+			<a href="./CV_RETRO_MODERNO.html">Curriculum Retro-Moderno</a>
+		</aside>
+	</body>
+</html>
