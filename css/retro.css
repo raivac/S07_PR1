@@ -30,8 +30,8 @@ body{
     text-align: center;
     background-image: url("../img/abstract.jpg");
     background-repeat: no-repeat;
-    background-size: 1700px 3565px;
-    height: 3565px;
+    background-size: 1700px 3530px;
+    height: 3530px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -39,8 +39,8 @@ body{
     border-radius: 3px;
     width: 1700px;
     list-style: none;
-    
 }
+
 nav{
     font-weight: bold;
     font-size: 1.7em;
@@ -96,7 +96,7 @@ header .boton{
 	border:2px solid lightsalmon;
     border-radius: 3px;
     align-items: center;
-    margin: 50px 280px;
+    margin: 30px 280px;
     cursor: pointer;
     transition: all 0.5s ease;
 }
